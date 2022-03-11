@@ -1,0 +1,35 @@
+{
+    "tasks": {
+        "all": {
+            "id-1": {
+                "name": "task-1",
+                "issue": "JIRA-1",
+                "history": {
+                    "2022-03-08": {
+                        "10:00": "started",
+                        "10:50": "beginning research",
+                        "12:15": "stopped"
+                    },
+                    "2022-03-07": {}
+                }
+            },
+            "id-2": {}
+        },
+        "in-progress": ["id-2"],
+        "backlog": ["id-1"],
+        "done": {
+            "2022-03-08": ["id-4"],
+            "2022-03-07": ["id-3"]
+        }         
+    },
+    "follow-ups": {
+        "2022-03-08": [
+            "ping sec team re x"
+        ],
+        "2022-03-07": [
+            "follow up with k re y"
+        ]
+    }
+}
+
+// track what I worked on but didn't finish?
